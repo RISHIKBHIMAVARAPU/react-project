@@ -1,0 +1,123 @@
+ .descriptionDiv{
+    text-align: center;
+ }
+ .descriptionDiv.false{
+  color: white;
+ }
+ .rt {
+  font-family:'Times New Roman', Times, serif;
+ }
+ .image{
+   width:50%;
+ }
+ .hire{
+  width:350px;
+  margin:0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  bottom: 0;
+  margin:0px auto;
+  background-color: rgb(251, 247, 247);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #cdf1d1;
+  font-weight: 600;
+ }
+
+ .button{
+  margin-top: 10px;
+  display: block;
+  border-radius: 5px;
+  border:none;
+  font-weight: 600;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width:fit-content;
+  padding: 10px;
+  /* cursor: pointer; */
+ }
+
+ .button a{
+   color:white
+ }
+
+ .ratingTable{
+  margin: 0px auto;
+  display: table;
+ }
+ .ratingRow{
+  display:table-row;
+ }
+ 
+ .ratingCell{
+  padding: 10px;
+  display: table-cell;
+ }
+
+ .serviceDiv{
+  margin: 20px auto;
+  /* display: grid; */
+  /* grid-template-columns: auto auto auto auto; */
+  width:70%;
+}
+
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  /* width: 300px; */
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+  /* border-bottom: 2px solid black; */
+}
+.serviceDiv h1{
+  /* border-bottom: 2px solid black; */
+}
+
+.serviceDiv button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  /* background-color: white; */
+  text-align: center;
+  cursor: pointer;
+  width: 40%;
+  font-size: 18px;
+  margin: 20px 10px;
+  border-radius: 5px;
+}
+
+.serviceDiv a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.serviceDiv button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.image{
+  /* border:0; */
+  border-bottom:10px solid #4CAF50;
+  /* margin-top: 20px; */
+  width: 40%;
+  /* padding:-5px; */
+  /* padding: 2px; */
+  /* border-radius: 50%; */
+}
+
+.serviceDiv i{
+  color:#4CAF50;
+}
